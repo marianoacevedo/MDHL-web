@@ -42,6 +42,10 @@ a p{
     display: none;
 }
 
+h2 p {
+    display: none
+}
+
 a:hover{
     background-color: green;
 }
