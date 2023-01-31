@@ -38,10 +38,6 @@ nav a {
     top: 60px
 }
 
-a p{
-    display: none;
-}
-
 a:hover{
     background-color: green;
 }
@@ -77,5 +73,20 @@ article p {
     padding-left: 30px
 }
 
+/* About */
 
+article h3 {
+    font-style: italic;
+    font-size:xx-large
+}
+
+/* Contact */
+
+.p-contact {
+    font-style: italic;
+    font-size: x-large;
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
 
