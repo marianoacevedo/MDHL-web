@@ -194,3 +194,80 @@ article h3 {
     content: "3. FIELDS USED BY YOUNG AGE GROUPS";
     font-weight: bold;
 }
+
+/* Game-Information */
+
+.conteiner-game {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.h3-game{
+    text-align: center;
+    font-size:50px;
+}
+
+.p-game {
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+table {
+    padding: 35px 25px 35px 25px;
+    margin: 10px;
+    font-style: italic;
+    font-size:x-large
+}
+
+table td {
+    padding: 10px 30px
+}
+
+.p-game1::before {
+    content: "Facility Type:";
+    font-weight: bold;
+}
+
+.p-game2::before {
+    content: "Additional Information:";
+    font-weight: bold;
+}
+
+.p-game2 {
+    margin-top: 15px;
+}
+
+.footer-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+    font-size:x-large;    
+}
+
+.p-game3::before {
+    content: "Please direct all questions to:";
+    font-weight: bold;
+}
+
+.p-game4::before {
+    content: "Phone:";
+    font-weight: bold;
+}
+
+.p-game5::before {
+    content: "Email:";
+    font-weight: bold;
+}
+
+.conteiner-p-game {
+    display: flex;
+    align-self:center;
+    padding: 15px;
+}
+
+.p-game4{
+    margin-right: 50px;
+}
+
