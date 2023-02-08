@@ -128,8 +128,69 @@ article h3 {
     margin-left: 40px;
 }
 
-.conteiner-p{
+.conteiner-p {
     display: flex;
     flex-direction: column;
     width: 60%;
+}
+
+/* Rules */
+
+.conteiner-p-rules {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.lista-rules {
+    font-style: italic;
+    font-size:xx-large;
+    padding-left: 25px;
+}
+
+.number-rules{
+    list-style-type:none;
+}
+
+.letra-rules {
+    list-style-type:lower-alpha;
+    padding-left: 0px
+}
+
+.circulo-rules {
+    list-style-type:circle;
+    padding-left: 110px;   
+}
+
+.art-center {
+    text-align: center;
+}
+
+.h4-rules {
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+.p-rules {
+    text-indent: 40px
+}
+
+.li-rules {
+    padding-bottom: 30px;
+    list-style-position: inside;
+}
+
+.before-1::before {
+    content: "1. DIMENSIONS.";
+    font-weight: bold;
+}
+
+.before-2::before {
+    content: "2. COMPETITION FIELDS.";
+    font-weight: bold;
+}
+
+.before-3::before {
+    content: "3. FIELDS USED BY YOUNG AGE GROUPS";
+    font-weight: bold;
 }
