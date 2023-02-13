@@ -27,28 +27,38 @@
             <a href="game_information.html">Game Information</a>
             <a href="#">Registration</a>
           </nav>
-          <div class="conteiner-art">
+          <div class="conteiner-registration">
             <article>
-              <h3>Registration Form</h3>
+              <h3 class="h3-registration">Registration Form</h3>
               <form action="show_data.html" method="get">
                 <fieldset>
-                <label for="name">Players First Name:</label>
-                <input type="text" name="nombre" id="name">
-                <label for="lastName">Last Name:</label>
-                <input type="text" name="apellido" id="lastName">
+                    <div class="box1">
+                       <div>
+                       <label for="name">Players First Name:</label>
+                       <input type="text" name="nombre" id="name">
+                       </div>
+                       <div>
+                       <label for="lastName">Last Name:</label>
+                       <input type="text" name="apellido" id="lastName">
+                      </div>
+                    </div>
                 <label for="street">Street Address:</label>
                 <input type="text" name="direccion" id="street">
-                <label for="city">City:</label>
-                <input type="text" name="ciudad" id="city">
-                <label for="zipCode">Zip Code:</label>
-                <input type="number" name="cp" id="zipCode">
-                <label for="birth">Birth Date:</label>
-                <input type="date" name="fecha" id="birth">
-                <label>Gender:</label>
-                <label for="female">Female</label>
-                <input type="radio" name="sexo" id="female">
-                <label for="male">Male</label>
-                <input type="radio" name="sexo" id="male">
+                    <div>
+                       <label for="city">City:</label>
+                       <input type="text" name="ciudad" id="city">
+                       <label for="zipCode">Zip Code:</label>
+                       <input type="number" name="cp" id="zipCode">
+                    </div>
+                    <div>
+                       <label for="birth">Birth Date:</label>
+                       <input type="date" name="fecha" id="birth">
+                       <label>Gender:</label>
+                       <label for="female">Female</label>
+                       <input type="radio" name="sexo" id="female">
+                       <label for="male">Male</label>
+                       <input type="radio" name="sexo" id="male">
+                    </div> 
                 <label>Grade:</label>
                 <input type="radio" name="grado" id="school">
                 <label for="school">Pre-School</label>
@@ -66,55 +76,75 @@
                 <fieldset>
                     <legend>Which elementary school do you live near?</legend>
                     <label>Closest School:</label>
-                    <input type="radio" name="cercania" id="school1">
-                    <label for="school1">Aj Katzenmaier</label>
-                    <input type="radio" name="cercania" id="school2">
-                    <label for="school2">Greenbay</label>
-                    <input type="radio" name="cercania" id="school3">
-                    <label for="school3">Howard A Yeager</label>
-                    <input type="radio" name="cercania" id="school4">
-                    <label for="school4">Marjorie P Hart</label>
-                    <input type="radio" name="cercania" id="school5">
-                    <label for="school5">North Elementary</label>
-                    <input type="radio" name="cercania" id="school6">
-                    <label for="school6">South Elementary</label>
+                    <div>
+                       <input type="radio" name="cercania" id="school1">
+                       <label for="school1">Aj Katzenmaier</label>
+                       <input type="radio" name="cercania" id="school4">
+                       <label for="school4">Marjorie P Hart</label>
+                    </div>
+                    <div>
+                       <input type="radio" name="cercania" id="school2">
+                       <label for="school2">Greenbay</label>
+                       <input type="radio" name="cercania" id="school5">
+                       <label for="school5">North Elementary</label>
+                    </div>
+                    <div>
+                       <input type="radio" name="cercania" id="school3">
+                       <label for="school3">Howard A Yeager</label>
+                       <input type="radio" name="cercania" id="school6">
+                       <label for="school6">South Elementary</label>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>What position(s) do you normally play? (Check all that apply)</legend>
-                    <input type="checkbox" name="posicion" id="foward">
-                    <label for="foward">Foward</label>
-                    <input type="checkbox" name="posicion" id="defense">
-                    <label for="defense">Defense</label>
-                    <input type="checkbox" name="posicion" id="midfield">
-                    <label for="midfield">Midfield</label>
-                    <input type="checkbox" name="posicion" id="goalkeeper">
-                    <label for="goalkeeper">Goalkeeper</label>
+                    <div class="pos">
+                        <input type="checkbox" name="posicion" id="foward">
+                        <label for="foward">Foward</label>
+                        <input type="checkbox" name="posicion" id="midfield">
+                        <label for="midfield">Midfield</label>
+                    </div>
+                    <div class="pos">
+                        <input type="checkbox" name="posicion" id="defense">
+                        <label for="defense">Defense</label>
+                        <input type="checkbox" name="posicion" id="goalkeeper">
+                        <label for="goalkeeper">Goalkeeper</label>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Uniform Size:</legend>
-                    <input type="radio" name="uniforme" id="size1">
-                    <label for="size1">Youth Small</label>
-                    <input type="radio" name="uniforme" id="size2">
-                    <label for="size2">Youth Medium</label>
-                    <input type="radio" name="uniforme" id="size3">
-                    <label for="size3">Youth Large</label>
-                    <input type="radio" name="uniforme" id="size4">
-                    <label for="size4">Small</label>
-                    <input type="radio" name="uniforme" id="size5">
-                    <label for="size5">Medium</label>
-                    <input type="radio" name="uniforme" id="size6">
-                    <label for="size6">Large</label>
-                    <input type="radio" name="uniforme" id="size7">
-                    <label for="size7">Extra-Large</label>
+                      <div>       
+                         <input type="radio" name="uniforme" id="size1">
+                         <label for="size1">Youth Small</label>
+                         <input type="radio" name="uniforme" id="size5">
+                         <label for="size5">Medium</label>
+                      </div>
+                      <div>
+                         <input type="radio" name="uniforme" id="size2">
+                         <label for="size2">Youth Medium</label>
+                         <input type="radio" name="uniforme" id="size6">
+                         <label for="size6">Large</label>
+                         </div>
+                      <div>
+                         <input type="radio" name="uniforme" id="size3">
+                         <label for="size3">Youth Large</label>
+                         <input type="radio" name="uniforme" id="size7">
+                         <label for="size7">Extra-Large</label>
+                      </div>
+                      <input type="radio" name="uniforme" id="size4">
+                      <label for="size4">Small</label>
                 </fieldset>
                 <fieldset>
                     <legend>Permission to Play</legend>
-                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and voIunteers,incIuding the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation
+                    <p class="permission">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and voIunteers,incIuding the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation
                         By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso
                         acknowledge that I have read the cancellation policy and agree to its terms.</p>
-                    <label for="date">Date:</label>
-                    <input type="date" name="fecha" id="date">
-                    <button type="submit">Enviar</button>
+                    <div class="enviar">
+                      <div>
+                        <label for="date">Date:</label>
+                        <input type="date" name="fecha" id="date">
+                      </div>
+                      <button type="submit">Enviar</button> 
+                    </div>
                 </fieldset>
               </form>
             </article>
