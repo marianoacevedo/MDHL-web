@@ -271,3 +271,61 @@ table td {
     margin-right: 50px;
 }
 
+/* Registration */
+
+.conteiner-registration {
+    width: 75%;
+}
+
+.h3-registration {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    padding: 10px;
+    margin: 10px;
+}
+
+label {
+    font-size: x-large;
+}
+
+legend {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+input {
+    margin: 10px;
+}
+
+.permission {
+    font-size: x-large;
+}
+
+.enviar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+}
+
+.box1 {
+    display: flex;
+}
+
